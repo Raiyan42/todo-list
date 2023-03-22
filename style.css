@@ -1,0 +1,135 @@
+
+
+body {
+    background: #651ad6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+}
+  
+  /* headings */
+  h1 {
+    font-size: 72px;
+    font-weight: italic;
+    color: rgb(187, 22, 22);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(50, 50, 50);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* input box and button */
+  #item {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  #enter {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5adbb5;
+    color: #fff;
+    cursor: pointer;
+  }
+  .input {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 30px;
+    align-items: center;
+    background-color: hsl(0, 14%, 97%);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  #header {
+    background-image: url(background02.png);
+    background-size: cover;
+    border: 1px solid whitesmoke;
+  }
+  
+  /* to-do list items */
+  .input-controller {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .input-controller textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-controller {
+    display: flex;
+  }
+  
+  .edit-controller button {
+    padding: 5px;
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+    color: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .edit-controller button i {
+    font-size: 16px;
+  }
+  
+  /* update controller */
+  .update-controller {
+    display: none;
+    justify-content: flex-end;
+  }
+  
+  .update-controller button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .update-controller .saveBtn {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .update-controller .cancelBtn {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  /* delete button */
+  .delBtn {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  .delBtn i {
+    font-size: 16px;
+  }
+  
